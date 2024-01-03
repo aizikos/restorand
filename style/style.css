@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+}
+
+.header_frist{
+    width: 100px;
+    height: 1000px;
+    background: #333333;
+}
+
+.header_content{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 900px;
+}
+
+.header_logo{
+    color: #B59571;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.header_mess{
+    color: #B59571;
+}
+
+.header_second{
+    background: url(/рисунок/Rectangle\ 30.png);
+    width: 100%;
+    padding: 30px 100px;
+    position: relative;
+}
+
+.menu_header{
+    text-align: right;
+}
+
+.menu_header li{
+    display: inline;
+    padding-left: 25px;
+}
+
+.menu_header a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.menu_header a:hover{
+    background-color: #B59571;
+}
+
+.header_tittle{
+    width: 875px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+
+.header_tittle h1{
+    font-size: 54px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 75.6px;
+}
