@@ -70,3 +70,157 @@ header{
     font-weight: 700;
     line-height: 75.6px;
 }
+
+/*главный файл*/
+
+.main_frist{
+    margin: 100px 0;
+}
+
+.container{
+    margin: 0px 35px;
+}
+
+.main_frist h1{
+    text-align: center;
+    font-size: 75px;
+    font-family: cursive;
+}
+
+/*card*/
+
+.main-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card1,.card2,.card3,
+.card4,.card5,.card6,
+.card7,.card8,.card9,
+.card10,.card11,.card12{
+    margin-top: 40px;
+}
+
+.card{
+    width: 300px;
+    height: 650px;
+    box-shadow: 0 3px 14px grey; 
+    padding: 15px 30px;
+    text-align: center;
+    gap: 20px;
+}
+
+.card h1{
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card img{
+    width: 200px;
+    height: 250px;
+}
+
+.info_card {
+    margin-top: 20px;
+    width: 280px;
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.info_card p{
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+}*/
+
+.tittle-info{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+
+.info_left p{
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: #B59571;
+}
+.info_rigth p{
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: #8f5512;
+}
+
+.compound{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.price{
+    text-align: start;
+    display: flex;
+    justify-content: space-between;           
+    margin-top: 70px;
+}
+
+.price h2{
+    color: coral;
+    font-size: 30px;
+}
+
+.price a{
+    text-decoration: none;
+}
+
+
+.bag::before{
+    font-family: 'icomoon' !important;
+    content: "\f07a";
+    font-size: 35px;
+    color: rgb(191, 164, 13);
+}
+
+.tabs input{
+    display: none;
+}
+
+.labels{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.tabs label{
+    font-size: 30px;
+    transition: .3s;
+}
+
+.tabs label:hover{
+    color: blueviolet;
+}
+
+#coffee:checked ~ .card2,
+#coffee:checked ~ .card3,
+#coffee:checked ~ .card5,
+#coffee:checked ~ .card8,
+#coffee:checked ~ .card7,
+#coffee:checked ~ .card9,
+#coffee:checked ~ .card10,
+#coffee:checked ~ .card11,
+#coffee:checked ~ .card12{
+    display: none;
+}
+#cakes:checked ~ .card1,
+#cakes:checked ~ .card3,
+#cakes:checked ~ .card5,
+#cakes:checked ~ .card8,
+#cakes:checked ~ .card4,
+#cakes:checked ~ .card6,
+#cakes:checked ~ .card10,
+#cakes:checked ~ .card11,
+#cakes:checked ~ .card12{
+    display: none;
+}
